@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogyata-Developer Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&
+    display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b45fe91edf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><b>Yogyata</b></div>
+            <div id="sidemenu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#acheivements">Achievements</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+        
+            </div>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Yogyata Rawat</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="/image/my resume.pdf" target="_blank">
+                        <button class="btn">Download Resume</button></a>
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+
+            </div>
+    </main>
+
+    <!--  ----------------------about-------------------- -->
+    <div id="about">
+        <div class="leftSection">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/me.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Hello there, I'm Yogyata Rawat-an aspiring innovator and relentless learner currently
+                        navigating the dynamic landscape of a B.Tech 3rd year. With an instiable curiosity for
+                        technology & its transformative potential, I am on a mission to carve out my own niche
+                        in the digital realm."</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                            <li><span>Web Development</span><br>Building Basic Website</li>
+                            <li><span>Python Development</span></li>
+                            <li><span>Linux</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Android Application Development</span><br>8-weeks Internship <br>from INTERNSHALA
+                            </li>
+                            <li><span>Python Programming</span><br>from GUVI</li>
+                            <li><span>Networking</span><br>CISCO</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BTech from Uttarakhand Technical University </span><br> 2022-2025</li>
+                            <li><span>Diploma from UBTER 84.47%</span><br>2019-2022</li>
+                            <li><span>Intermediate 76%</span><br>2018-2019</li>
+                            <li><span>Highschool 81.7%</span><br>2016-2017</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------acheivements-------------------- -->
+
+    <div id="acheivements">
+        <div class="container">
+            <h1 class="sub-title">My Acheivements</h1>
+            <div class="acheivements-list">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Debate Competition</h2>
+                    <p>Achieving the coveted first position in a fiercely competitive state-level debate competition
+                        stands as a
+                        testament to my unwavering dedication to the art of eloquence and critical thinking. With every
+                        word I spoke,
+                        I not only conveyed my perspective but also ignited intellectual sparks in the minds of the
+                        audience.
+                        This achievement, etched in the annals of my journey, fuels my pursuit of excellence in
+                        communication
+                        and shapes my determination to make my voice heard on larger platforms."</p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-flask"></i>
+                    <h2>Science Quiz</h2>
+                    <p>Achieving the coveted second position in a fiercely competitive block-level science quiz stands
+                        as a testament to
+                        my passion for knowledge and my ability to excel under pressure.
+                        I embraced the challenge with determination and emerged as a frontrunner, showcasing my aptitude
+                        for critical thinking,
+                        quick reflexes, and a deep understanding of scientific concepts."</p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-headset"></i>
+                    <h2>Gaming</h2>
+                    <p>Demonstrating versatility beyond the classroom, I've engaged in a symphony of sports,
+                        capturing triumphs in cricket, football, volleyball, table tennis, and badminton at both school
+                        and college levels.
+                        These athletic pursuits have not only honed my teamwork, discipline, and strategic thinking but
+                        have also earned me a
+                        collection of hard-earned accolades. From the thrill of the pitch to the competitive fervor of
+                        the court,
+                        these victories mirror my unwavering commitment to excellence in all endeavors."</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------portfolio----------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work1.png">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>I created my portfolio using html, css and javascript.It is a responsive website portfolio.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work2.png">
+                    <div class="layer">
+                        <h3>Fitness Application</h3>
+                        <p>With the help of my team I coded for a fitness application which count the time of your
+                            execise.</p>
+                        <a href="#"><i class="fa-brands fa-app-store"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work3.png">
+                    <div class="layer">
+                        <h3>Snake game in Python</h3>
+                        <p>I created a snake game using python in vs code.</p>
+                        <a href="#"><i class="fa-brands fa-python"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn1">See More</a>
+        </div>
+    </div>
+
+    <!-- ----------------contact-------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>yogyatarawat30511@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-9557013879</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/yogyata-rawat-17061b209">
+                            <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/suk00n23"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/YogyataRawat"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/Yog-123"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright &#169;yogyatasportfolio.com | All rights reserved</p>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java Developer', 'Python Developer'],
+            typeSpeed: 50,
+        });
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwAsX2TAUwsMRhamXCoIB3sSQ1YGJQj7lwplNcrVSJfM3fKztGov6QTUA-UWvP7kND4FA/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },500)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+
+</html>
